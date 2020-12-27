@@ -22,6 +22,5 @@ public class Task01Main {
             throw new NullPointerException();
         }
         return (x) -> condition.test(x) ? ifTrue.apply(x) : ifFalse.apply(x);
-
     }
 }
